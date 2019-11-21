@@ -1,3 +1,5 @@
 regle css left géré par cpu, saccadée, lent
 regle transform géré par gpu, plus rapide
+document.queryselector
+JQuery : data-url = data("url") 
 
