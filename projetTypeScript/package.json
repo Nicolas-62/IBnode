@@ -1,0 +1,11 @@
+{
+  "name": "html",
+  "title": "html",
+  "version": "1.0.0",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "scripts": {
+    "dev": "lite-server"
+  }
+}

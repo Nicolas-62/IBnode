@@ -1,0 +1,32 @@
+JS6
+class Person{
+	var first='nico';
+	var last='lourdel'
+}
+const { first, last } = person
+// first = nico
+// last = lourdel
+
+spread operator
+array.push(...array2);
+...unplaced
+array.from()
+array.of()
+array.find()
+array.findIndex()
+
+npm vs yarn
+yarn evite de charger les sous dépendances redondantes
+
+taskrunner :
+webpack, gulp, Grunt js
+
+transpiling : 
+babel, browserify
+redux : injection de dépendance
+stylus..
+grunt : javascript..
+
+depedencies, devDepedencies (sources en +, parfois necessaire sinon ça marche pas)
+
+grunt : loadnpmtask, declaration des taches : registerTask, 

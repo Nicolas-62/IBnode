@@ -4,5 +4,15 @@ var images = ["https://sf2.viepratique.fr/wp-content/uploads/sites/8/2017/04/mai
 
 
 $(document).ready(function(){	
-    
+    $('#image-principale').attr('src', images[0]);
+
+    $.each(images, function(index, image){
+        $('#carrousel-item').each(function(index){
+            const photo = images[index];
+            const template =    `<a href="">
+                                    <img src="${photo}" />
+                                </a>`
+            
+        });
+    });
 });

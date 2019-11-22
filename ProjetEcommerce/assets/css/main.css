@@ -1,12 +1,10 @@
 body{
     width: 100%;
-    margin: auto;
+    margin: 2%;
 }
 #modal{
     display: none;
 }
-#image{
-}
-#image img{
-
+#image-principale{
+    width: 70%;
 }
